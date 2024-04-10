@@ -12,7 +12,7 @@ config.window_background_opacity = 0.9
 config.font = wezterm.font("IosevkaTerm Nerd Font")
 config.font_size = 16
 
-config.default_prog = { "/opt/homebrew/bin/fish" }
+config.default_prog = { "fish" }
 
 -- and finally, return the configuration to wezterm
 return config
