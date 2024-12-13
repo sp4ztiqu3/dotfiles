@@ -3,4 +3,6 @@ if status is-interactive
     starship init fish | source
 end
 
+set PATH "$PATH:$HOME/go/bin"
+
 set fish_greeting
